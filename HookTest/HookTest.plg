@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HookTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\jiao\AppData\Local\Temp\RSP5477.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/HookTest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files\Microsoft Visual Studio6\MyProjects\HookTest\HookTestDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\jiao\AppData\Local\Temp\RSP5477.tmp" 
+Creating temporary file "C:\Users\jiao\AppData\Local\Temp\RSP5478.tmp" with contents
+[
+..\Hook\Debug\Hook.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/HookTest.pdb" /debug /machine:I386 /out:"Debug/HookTest.exe" /pdbtype:sept 
+".\Debug\HookTest.obj"
+".\Debug\HookTestDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\HookTest.res"
+]
+Creating command line "link.exe @C:\Users\jiao\AppData\Local\Temp\RSP5478.tmp"
+<h3>Output Window</h3>
+Compiling...
+HookTestDlg.cpp
+C:\Program Files\Microsoft Visual Studio6\MyProjects\HookTest\HookTestDlg.cpp(182) : warning C4101: 'c' : unreferenced local variable
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/HookTest.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\HookTest.sbr" ".\Debug\HookTestDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+HookTest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
